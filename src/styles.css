@@ -1,0 +1,44 @@
+.container {
+    margin: auto;
+}
+
+.site-title {
+    /* Heading/H3 Bold */
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    /* identical to box height, or 47px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Secondary Color/50% */
+
+    color: #F86338;
+
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search input{
+    width: 35rem;
+}
+
+.search label{
+    display: block;
+    padding-left: 1rem;
+}
+
+.hero {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
