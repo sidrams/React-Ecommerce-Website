@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Hero from "../components/Home/Hero";
 import NewsletterCTA from "../components/Home/NewsletterCTA";
 import ProductLists from "../components/Shop/ProductsList";

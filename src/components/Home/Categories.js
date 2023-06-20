@@ -4,25 +4,25 @@ function Categories() {
     return (
         <div>
         <ul className="flex justify-between my-14 mx-8 font-bold text-2xl text-[#9A9AB0]">
-            <CustomLink to="/">
+            <CustomLink to="">
                 All Products
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 Coats & Jackets
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 Dresses
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 Playsuit
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 Short
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 Skirt
             </CustomLink>
-            <CustomLink to="/">
+            <CustomLink to="">
                 T-shirt
             </CustomLink>
         </ul>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Categories from "./Categories";
 import ProductCard from "./Product";
 
-function Collection() {
+const Collection = ({heading}) => {
     const [products, setProducts] = useState([])
     useEffect(() => {
         const fetchProducts = async () => {
@@ -18,7 +18,7 @@ function Collection() {
         <section className="text-gray-600 body-font bg-gray-100">
         <div className="container px-5 py-24 mx-auto">
             <h2 className="font-bold text-5xl leading-[120%] text-gray-900 tracking-wide text-center mb-11">
-                Our Premium Collection
+                {heading ? heading : "Our Premium Collection"}
             </h2>
             
             <Categories />
