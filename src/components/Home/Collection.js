@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Categories from "./Categories";
 import ProductCard from "./Product";
-import orangeArrow from '../../icons/orangeArrow.svg'
-
 
 function Collection() {
     const [products, setProducts] = useState([])

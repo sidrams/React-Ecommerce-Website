@@ -13,7 +13,7 @@ function Home() {
     return (
       <div>
         {/* <h1>Home</h1> */}
-        <Hero />
+        <Hero title="Your Premium" title2="Sound, Unplugged!" button="true" />
         <Collection />
         <TopItems />
         <BrandStory />

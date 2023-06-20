@@ -8,7 +8,7 @@ const ProductCard = ({ products = [] }) => {
           {
             products.map((product) => {
               console.log(product, 'product')
-              const { id, title, price, description, category, image } = product;
+              const { id, title, category, image } = product;
               return (
                 // <Link to={`/products/${id}`} >
                   <Link to={`/products/${id}`} className="lg:w-[33%] md:w-1/3 p-8 py-16 h-[600px] bg-white max-w-[400px] flex flex-col justify-end mb-3">
