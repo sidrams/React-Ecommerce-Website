@@ -33,7 +33,7 @@ export default function Navbar() {
             <ul className="">
                 <CustomLink to="/Shop">Shop</CustomLink>
                 <CustomLink to="/">Promo</CustomLink>
-                <CustomLink to="/">About</CustomLink>
+                <CustomLink to="/gallery">About</CustomLink>
                 <CustomLink to="/">Blog</CustomLink>
             </ul>
             <SearchBar />
@@ -42,12 +42,12 @@ export default function Navbar() {
                     <img src={wishlist} className="inline-block h-6 w-6 mx-1" alt="wishlist-icon" />
                 </CustomLink>
                 <CustomLink to="/">
-                    <img src={profile} className="inline-block h-6 w-6 mx-1" alt="cart-icon" />
+                    <img src={profile} className="inline-block h-6 w-6 mx-1" alt="profile-icon" />
                 </CustomLink>
                 <CustomLink to="/">
                 <img src={notifications} className="inline-block h-6 w-6 mx-1" alt="notification-icon" />
                 </CustomLink>
-                <CustomLink to="/">
+                <CustomLink to="/cart">
                 <img src={cart} className="inline-block h-6 w-6 mx-1" alt="cart-icon" />
                 </CustomLink>
             </ul>

@@ -1,6 +1,6 @@
 function TopItems() {
     return (
-        <div>
+        <div className="bg-white">
             <h2 className="font-bold text-5xl leading-[120%] text-gray-900 tracking-wide text-center mb-11">
                 Top Items
             </h2>
