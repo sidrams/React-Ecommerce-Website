@@ -21,7 +21,6 @@ function Home() {
         <Reviews />
         <Articles />
         <NesletterCTA />
-        <Footer />
       </div>
     );
   }

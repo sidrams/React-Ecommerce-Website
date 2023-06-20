@@ -9,7 +9,6 @@ function Shop() {
         <Hero title="Home Shopping," title2="Your Choice!" />
         <ProductLists />
         <NewsletterCTA />
-        <Footer />
       </div>
     );
   }
